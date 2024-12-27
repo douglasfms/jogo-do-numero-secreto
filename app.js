@@ -7,12 +7,12 @@ function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
 }
-//Função para exibir o texto da tela inicial (Comentário teste)
+//Função para exibir o texto da tela inicial (Comentário teste github)
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
-
+//Rodando a função (teste github)
 exibirMensagemInicial();
 
 function verificarChute(){
